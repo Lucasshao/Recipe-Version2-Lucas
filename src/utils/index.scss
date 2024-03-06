@@ -17,3 +17,13 @@
     display: none;
   }
 }
+
+@mixin chosen {
+  background-color: rgba(0, 119, 255, 0.601);
+  border: 1px solid black;
+}
+
+@mixin lastChosen {
+  background-color: rgba(0, 255, 255, 0.145);
+  border: 1px dashed gray;
+}
